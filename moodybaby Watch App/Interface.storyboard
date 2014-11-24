@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="13F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="iof-P2-Qyj">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
+    </dependencies>
+    <scenes>
+        <!--Send View Controller-->
+        <scene sceneID="cp3-KR-aCM">
+            <objects>
+                <controller id="pdS-Mk-2h8" customClass="SendViewController">
+                    <items>
+                        <button width="65" height="39" alignment="left" backgroundImage="sad.jpg" id="CB3-wi-MND">
+                            <connections>
+                                <action selector="sendSad:" destination="pdS-Mk-2h8" id="Vrn-iC-MG4"/>
+                            </connections>
+                        </button>
+                        <button width="65" height="69" alignment="left" enabled="NO" backgroundImage="baby-smiley-milk.png" id="mPG-fJ-gPc">
+                            <connections>
+                                <action selector="sendMilk:" destination="pdS-Mk-2h8" id="VPx-VJ-aya"/>
+                            </connections>
+                        </button>
+                        <button width="64" height="39.999999999999986" alignment="left" backgroundImage="stock-vector-happy-smiley-emoticon-face-123417493.jpg" id="vNb-5v-08z">
+                            <connections>
+                                <action selector="sendPlay:" destination="pdS-Mk-2h8" id="RHq-vq-Taf"/>
+                            </connections>
+                        </button>
+                        <button width="74" height="33" alignment="left" backgroundImage="happy.jpg" id="pNN-KH-dFO">
+                            <connections>
+                                <action selector="sendHappy:" destination="pdS-Mk-2h8" id="DUR-KP-kiA"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="899" y="274"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="hMX-hw-Y15">
+            <objects>
+                <controller id="iof-P2-Qyj" customClass="InterfaceController">
+                    <items>
+                        <button width="1" alignment="left" title="Send" id="HWa-c7-gjm">
+                            <connections>
+                                <segue destination="pdS-Mk-2h8" kind="push" id="BWL-Ex-jhZ"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Receive" id="Au3-yG-tqs">
+                            <connections>
+                                <segue destination="SUR-6j-wCS" kind="push" id="abJ-iG-deG"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="675" y="411"/>
+        </scene>
+        <!--Receive View Controller-->
+        <scene sceneID="P9A-Oy-LYr">
+            <objects>
+                <controller id="SUR-6j-wCS" customClass="ReceiveViewController">
+                    <items>
+                        <imageView width="127" height="113" alignment="left" id="hAz-cV-sR7"/>
+                    </items>
+                    <connections>
+                        <outlet property="displayImage" destination="hAz-cV-sR7" id="oIv-8z-OZt"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="887" y="548"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController">
+                    <items>
+                        <label width="131" height="75" alignment="left" text="Label" id="0bS-DD-MIA"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A102B3471A2288150099FB71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A102B3461A2288150099FB71 /* main.m */; };
+		A102B34A1A2288150099FB71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A102B3491A2288150099FB71 /* AppDelegate.m */; };
+		A102B34D1A2288150099FB71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A102B34C1A2288150099FB71 /* ViewController.m */; };
+		A102B3501A2288150099FB71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A102B34E1A2288150099FB71 /* Main.storyboard */; };
+		A102B3521A2288150099FB71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A102B3511A2288150099FB71 /* Images.xcassets */; };
+		A102B3551A2288150099FB71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A102B3531A2288150099FB71 /* LaunchScreen.xib */; };
+		A102B3611A2288150099FB71 /* moodybabyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A102B3601A2288150099FB71 /* moodybabyTests.m */; };
+		A102B3711A228EA60099FB71 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3701A228EA60099FB71 /* WatchKit.framework */; };
+		A102B3781A228EA60099FB71 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A102B3771A228EA60099FB71 /* InterfaceController.m */; };
+		A102B37B1A228EA60099FB71 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A102B37A1A228EA60099FB71 /* NotificationController.m */; };
+		A102B37D1A228EA60099FB71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A102B37C1A228EA60099FB71 /* Images.xcassets */; };
+		A102B3811A228EA60099FB71 /* moodybaby Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = A102B3801A228EA60099FB71 /* moodybaby Watch App.app */; };
+		A102B3881A228EA60099FB71 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A102B3871A228EA60099FB71 /* Interface.storyboard */; };
+		A102B38A1A228EA60099FB71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A102B3891A228EA60099FB71 /* Images.xcassets */; };
+		A102B38D1A228EA60099FB71 /* moodybaby WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A102B36E1A228EA60099FB71 /* moodybaby WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A102B3971A22944E0099FB71 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3951A22944E0099FB71 /* Bolts.framework */; };
+		A102B3981A22944E0099FB71 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3961A22944E0099FB71 /* Parse.framework */; };
+		A102B39A1A22949D0099FB71 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3991A22949D0099FB71 /* AudioToolbox.framework */; };
+		A102B39C1A2294A60099FB71 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B39B1A2294A60099FB71 /* CFNetwork.framework */; };
+		A102B39E1A2294AD0099FB71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B39D1A2294AD0099FB71 /* CoreGraphics.framework */; };
+		A102B3A01A2294B40099FB71 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B39F1A2294B40099FB71 /* CoreLocation.framework */; };
+		A102B3A21A2294BC0099FB71 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3A11A2294BC0099FB71 /* libz.dylib */; };
+		A102B3A41A2294C30099FB71 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3A31A2294C30099FB71 /* MobileCoreServices.framework */; };
+		A102B3A61A2294CA0099FB71 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3A51A2294CA0099FB71 /* QuartzCore.framework */; };
+		A102B3A81A2294D00099FB71 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3A71A2294D00099FB71 /* Security.framework */; };
+		A102B3AA1A2294D70099FB71 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3A91A2294D70099FB71 /* StoreKit.framework */; };
+		A102B3AC1A2294DD0099FB71 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3AB1A2294DD0099FB71 /* SystemConfiguration.framework */; };
+		A102B3AF1A2297C60099FB71 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3961A22944E0099FB71 /* Parse.framework */; };
+		A102B3B01A2297D00099FB71 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3951A22944E0099FB71 /* Bolts.framework */; };
+		A102B3B11A2297F80099FB71 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3991A22949D0099FB71 /* AudioToolbox.framework */; };
+		A102B3B21A2299040099FB71 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3AB1A2294DD0099FB71 /* SystemConfiguration.framework */; };
+		A102B3B31A2299110099FB71 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3A71A2294D00099FB71 /* Security.framework */; };
+		A102B3B41A22991B0099FB71 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3A51A2294CA0099FB71 /* QuartzCore.framework */; };
+		A102B3B51A2299290099FB71 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3A31A2294C30099FB71 /* MobileCoreServices.framework */; };
+		A102B3B61A2299520099FB71 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B39F1A2294B40099FB71 /* CoreLocation.framework */; };
+		A102B3B71A2299620099FB71 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B3A11A2294BC0099FB71 /* libz.dylib */; };
+		A102B3B81A22997D0099FB71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B39D1A2294AD0099FB71 /* CoreGraphics.framework */; };
+		A102B3B91A22998A0099FB71 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A102B39B1A2294A60099FB71 /* CFNetwork.framework */; };
+		A102B3C61A22A1060099FB71 /* baby-smiley-milk.png in Resources */ = {isa = PBXBuildFile; fileRef = A102B3C21A22A1060099FB71 /* baby-smiley-milk.png */; };
+		A102B3C71A22A1060099FB71 /* happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A102B3C31A22A1060099FB71 /* happy.jpg */; };
+		A102B3C81A22A1060099FB71 /* sad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A102B3C41A22A1060099FB71 /* sad.jpg */; };
+		A102B3C91A22A1060099FB71 /* stock-vector-happy-smiley-emoticon-face-123417493.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A102B3C51A22A1060099FB71 /* stock-vector-happy-smiley-emoticon-face-123417493.jpg */; };
+		A102B3CF1A22A23B0099FB71 /* SendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A102B3CE1A22A23B0099FB71 /* SendViewController.m */; };
+		A102B3D21A22A2C40099FB71 /* ReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A102B3D11A22A2C40099FB71 /* ReceiveViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A102B35B1A2288150099FB71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A102B3391A2288150099FB71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A102B3401A2288150099FB71;
+			remoteInfo = moodybaby;
+		};
+		A102B3821A228EA60099FB71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A102B3391A2288150099FB71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A102B37F1A228EA60099FB71;
+			remoteInfo = "moodybaby Watch App";
+		};
+		A102B38B1A228EA60099FB71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A102B3391A2288150099FB71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A102B36D1A228EA60099FB71;
+			remoteInfo = "moodybaby WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A102B3941A228EA60099FB71 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A102B38D1A228EA60099FB71 /* moodybaby WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A102B3411A2288150099FB71 /* moodybaby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodybaby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A102B3451A2288150099FB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A102B3461A2288150099FB71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A102B3481A2288150099FB71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A102B3491A2288150099FB71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A102B34B1A2288150099FB71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A102B34C1A2288150099FB71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A102B34F1A2288150099FB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A102B3511A2288150099FB71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A102B3541A2288150099FB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A102B35A1A2288150099FB71 /* moodybabyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodybabyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A102B35F1A2288150099FB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A102B3601A2288150099FB71 /* moodybabyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moodybabyTests.m; sourceTree = "<group>"; };
+		A102B36E1A228EA60099FB71 /* moodybaby WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "moodybaby WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A102B3701A228EA60099FB71 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		A102B3741A228EA60099FB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A102B3751A228EA60099FB71 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		A102B3761A228EA60099FB71 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		A102B3771A228EA60099FB71 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		A102B3791A228EA60099FB71 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		A102B37A1A228EA60099FB71 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		A102B37C1A228EA60099FB71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A102B3801A228EA60099FB71 /* moodybaby Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "moodybaby Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A102B3861A228EA60099FB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A102B3871A228EA60099FB71 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		A102B3891A228EA60099FB71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A102B3951A22944E0099FB71 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A102B3961A22944E0099FB71 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A102B3991A22949D0099FB71 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A102B39B1A2294A60099FB71 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A102B39D1A2294AD0099FB71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A102B39F1A2294B40099FB71 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A102B3A11A2294BC0099FB71 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A102B3A31A2294C30099FB71 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A102B3A51A2294CA0099FB71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A102B3A71A2294D00099FB71 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A102B3A91A2294D70099FB71 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A102B3AB1A2294DD0099FB71 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A102B3AD1A22979E0099FB71 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		A102B3C21A22A1060099FB71 /* baby-smiley-milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baby-smiley-milk.png"; sourceTree = "<group>"; };
+		A102B3C31A22A1060099FB71 /* happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy.jpg; sourceTree = "<group>"; };
+		A102B3C41A22A1060099FB71 /* sad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sad.jpg; sourceTree = "<group>"; };
+		A102B3C51A22A1060099FB71 /* stock-vector-happy-smiley-emoticon-face-123417493.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stock-vector-happy-smiley-emoticon-face-123417493.jpg"; sourceTree = "<group>"; };
+		A102B3CD1A22A23B0099FB71 /* SendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendViewController.h; sourceTree = "<group>"; };
+		A102B3CE1A22A23B0099FB71 /* SendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendViewController.m; sourceTree = "<group>"; };
+		A102B3D01A22A2C40099FB71 /* ReceiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveViewController.h; sourceTree = "<group>"; };
+		A102B3D11A22A2C40099FB71 /* ReceiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A102B33E1A2288150099FB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A102B39A1A22949D0099FB71 /* AudioToolbox.framework in Frameworks */,
+				A102B3AC1A2294DD0099FB71 /* SystemConfiguration.framework in Frameworks */,
+				A102B3AA1A2294D70099FB71 /* StoreKit.framework in Frameworks */,
+				A102B3A81A2294D00099FB71 /* Security.framework in Frameworks */,
+				A102B3A61A2294CA0099FB71 /* QuartzCore.framework in Frameworks */,
+				A102B3A41A2294C30099FB71 /* MobileCoreServices.framework in Frameworks */,
+				A102B3A21A2294BC0099FB71 /* libz.dylib in Frameworks */,
+				A102B3A01A2294B40099FB71 /* CoreLocation.framework in Frameworks */,
+				A102B39E1A2294AD0099FB71 /* CoreGraphics.framework in Frameworks */,
+				A102B39C1A2294A60099FB71 /* CFNetwork.framework in Frameworks */,
+				A102B3981A22944E0099FB71 /* Parse.framework in Frameworks */,
+				A102B3971A22944E0099FB71 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A102B3571A2288150099FB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A102B36B1A228EA60099FB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A102B3B91A22998A0099FB71 /* CFNetwork.framework in Frameworks */,
+				A102B3B81A22997D0099FB71 /* CoreGraphics.framework in Frameworks */,
+				A102B3B71A2299620099FB71 /* libz.dylib in Frameworks */,
+				A102B3B61A2299520099FB71 /* CoreLocation.framework in Frameworks */,
+				A102B3B51A2299290099FB71 /* MobileCoreServices.framework in Frameworks */,
+				A102B3B41A22991B0099FB71 /* QuartzCore.framework in Frameworks */,
+				A102B3B31A2299110099FB71 /* Security.framework in Frameworks */,
+				A102B3B21A2299040099FB71 /* SystemConfiguration.framework in Frameworks */,
+				A102B3B11A2297F80099FB71 /* AudioToolbox.framework in Frameworks */,
+				A102B3B01A2297D00099FB71 /* Bolts.framework in Frameworks */,
+				A102B3711A228EA60099FB71 /* WatchKit.framework in Frameworks */,
+				A102B3AF1A2297C60099FB71 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A102B3381A2288150099FB71 = {
+			isa = PBXGroup;
+			children = (
+				A102B3951A22944E0099FB71 /* Bolts.framework */,
+				A102B3961A22944E0099FB71 /* Parse.framework */,
+				A102B3431A2288150099FB71 /* moodybaby */,
+				A102B35D1A2288150099FB71 /* moodybabyTests */,
+				A102B3721A228EA60099FB71 /* moodybaby WatchKit Extension */,
+				A102B3841A228EA60099FB71 /* moodybaby Watch App */,
+				A102B36F1A228EA60099FB71 /* Frameworks */,
+				A102B3421A2288150099FB71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A102B3421A2288150099FB71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A102B3411A2288150099FB71 /* moodybaby.app */,
+				A102B35A1A2288150099FB71 /* moodybabyTests.xctest */,
+				A102B36E1A228EA60099FB71 /* moodybaby WatchKit Extension.appex */,
+				A102B3801A228EA60099FB71 /* moodybaby Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A102B3431A2288150099FB71 /* moodybaby */ = {
+			isa = PBXGroup;
+			children = (
+				A102B3481A2288150099FB71 /* AppDelegate.h */,
+				A102B3491A2288150099FB71 /* AppDelegate.m */,
+				A102B34B1A2288150099FB71 /* ViewController.h */,
+				A102B34C1A2288150099FB71 /* ViewController.m */,
+				A102B34E1A2288150099FB71 /* Main.storyboard */,
+				A102B3511A2288150099FB71 /* Images.xcassets */,
+				A102B3531A2288150099FB71 /* LaunchScreen.xib */,
+				A102B3441A2288150099FB71 /* Supporting Files */,
+			);
+			path = moodybaby;
+			sourceTree = "<group>";
+		};
+		A102B3441A2288150099FB71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A102B3451A2288150099FB71 /* Info.plist */,
+				A102B3461A2288150099FB71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A102B35D1A2288150099FB71 /* moodybabyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A102B3601A2288150099FB71 /* moodybabyTests.m */,
+				A102B35E1A2288150099FB71 /* Supporting Files */,
+			);
+			path = moodybabyTests;
+			sourceTree = "<group>";
+		};
+		A102B35E1A2288150099FB71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A102B35F1A2288150099FB71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A102B36F1A228EA60099FB71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A102B3AD1A22979E0099FB71 /* AudioUnit.framework */,
+				A102B3AB1A2294DD0099FB71 /* SystemConfiguration.framework */,
+				A102B3A91A2294D70099FB71 /* StoreKit.framework */,
+				A102B3A71A2294D00099FB71 /* Security.framework */,
+				A102B3A51A2294CA0099FB71 /* QuartzCore.framework */,
+				A102B3A31A2294C30099FB71 /* MobileCoreServices.framework */,
+				A102B3A11A2294BC0099FB71 /* libz.dylib */,
+				A102B39F1A2294B40099FB71 /* CoreLocation.framework */,
+				A102B39D1A2294AD0099FB71 /* CoreGraphics.framework */,
+				A102B39B1A2294A60099FB71 /* CFNetwork.framework */,
+				A102B3991A22949D0099FB71 /* AudioToolbox.framework */,
+				A102B3701A228EA60099FB71 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A102B3721A228EA60099FB71 /* moodybaby WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A102B3761A228EA60099FB71 /* InterfaceController.h */,
+				A102B3771A228EA60099FB71 /* InterfaceController.m */,
+				A102B3CD1A22A23B0099FB71 /* SendViewController.h */,
+				A102B3CE1A22A23B0099FB71 /* SendViewController.m */,
+				A102B3D01A22A2C40099FB71 /* ReceiveViewController.h */,
+				A102B3D11A22A2C40099FB71 /* ReceiveViewController.m */,
+				A102B3791A228EA60099FB71 /* NotificationController.h */,
+				A102B37A1A228EA60099FB71 /* NotificationController.m */,
+				A102B37C1A228EA60099FB71 /* Images.xcassets */,
+				A102B3731A228EA60099FB71 /* Supporting Files */,
+			);
+			path = "moodybaby WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A102B3731A228EA60099FB71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A102B3741A228EA60099FB71 /* Info.plist */,
+				A102B3751A228EA60099FB71 /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A102B3841A228EA60099FB71 /* moodybaby Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A102B3C21A22A1060099FB71 /* baby-smiley-milk.png */,
+				A102B3C31A22A1060099FB71 /* happy.jpg */,
+				A102B3C41A22A1060099FB71 /* sad.jpg */,
+				A102B3C51A22A1060099FB71 /* stock-vector-happy-smiley-emoticon-face-123417493.jpg */,
+				A102B3871A228EA60099FB71 /* Interface.storyboard */,
+				A102B3891A228EA60099FB71 /* Images.xcassets */,
+				A102B3851A228EA60099FB71 /* Supporting Files */,
+			);
+			path = "moodybaby Watch App";
+			sourceTree = "<group>";
+		};
+		A102B3851A228EA60099FB71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A102B3861A228EA60099FB71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A102B3401A2288150099FB71 /* moodybaby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A102B3641A2288150099FB71 /* Build configuration list for PBXNativeTarget "moodybaby" */;
+			buildPhases = (
+				A102B33D1A2288150099FB71 /* Sources */,
+				A102B33E1A2288150099FB71 /* Frameworks */,
+				A102B33F1A2288150099FB71 /* Resources */,
+				A102B3941A228EA60099FB71 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A102B38C1A228EA60099FB71 /* PBXTargetDependency */,
+			);
+			name = moodybaby;
+			productName = moodybaby;
+			productReference = A102B3411A2288150099FB71 /* moodybaby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A102B3591A2288150099FB71 /* moodybabyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A102B3671A2288150099FB71 /* Build configuration list for PBXNativeTarget "moodybabyTests" */;
+			buildPhases = (
+				A102B3561A2288150099FB71 /* Sources */,
+				A102B3571A2288150099FB71 /* Frameworks */,
+				A102B3581A2288150099FB71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A102B35C1A2288150099FB71 /* PBXTargetDependency */,
+			);
+			name = moodybabyTests;
+			productName = moodybabyTests;
+			productReference = A102B35A1A2288150099FB71 /* moodybabyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A102B36D1A228EA60099FB71 /* moodybaby WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A102B3911A228EA60099FB71 /* Build configuration list for PBXNativeTarget "moodybaby WatchKit Extension" */;
+			buildPhases = (
+				A102B36A1A228EA60099FB71 /* Sources */,
+				A102B36B1A228EA60099FB71 /* Frameworks */,
+				A102B36C1A228EA60099FB71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A102B3831A228EA60099FB71 /* PBXTargetDependency */,
+			);
+			name = "moodybaby WatchKit Extension";
+			productName = "moodybaby WatchKit Extension";
+			productReference = A102B36E1A228EA60099FB71 /* moodybaby WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		A102B37F1A228EA60099FB71 /* moodybaby Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A102B38E1A228EA60099FB71 /* Build configuration list for PBXNativeTarget "moodybaby Watch App" */;
+			buildPhases = (
+				A102B37E1A228EA60099FB71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "moodybaby Watch App";
+			productName = "moodybaby Watch App";
+			productReference = A102B3801A228EA60099FB71 /* moodybaby Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A102B3391A2288150099FB71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "___ibata___";
+				TargetAttributes = {
+					A102B3401A2288150099FB71 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A102B3591A2288150099FB71 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A102B3401A2288150099FB71;
+					};
+					A102B36D1A228EA60099FB71 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A102B37F1A228EA60099FB71 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = A102B33C1A2288150099FB71 /* Build configuration list for PBXProject "moodybaby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A102B3381A2288150099FB71;
+			productRefGroup = A102B3421A2288150099FB71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A102B3401A2288150099FB71 /* moodybaby */,
+				A102B3591A2288150099FB71 /* moodybabyTests */,
+				A102B36D1A228EA60099FB71 /* moodybaby WatchKit Extension */,
+				A102B37F1A228EA60099FB71 /* moodybaby Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A102B33F1A2288150099FB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A102B3501A2288150099FB71 /* Main.storyboard in Resources */,
+				A102B3551A2288150099FB71 /* LaunchScreen.xib in Resources */,
+				A102B3521A2288150099FB71 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A102B3581A2288150099FB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A102B36C1A228EA60099FB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A102B3811A228EA60099FB71 /* moodybaby Watch App.app in Resources */,
+				A102B37D1A228EA60099FB71 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A102B37E1A228EA60099FB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A102B3881A228EA60099FB71 /* Interface.storyboard in Resources */,
+				A102B38A1A228EA60099FB71 /* Images.xcassets in Resources */,
+				A102B3C81A22A1060099FB71 /* sad.jpg in Resources */,
+				A102B3C71A22A1060099FB71 /* happy.jpg in Resources */,
+				A102B3C61A22A1060099FB71 /* baby-smiley-milk.png in Resources */,
+				A102B3C91A22A1060099FB71 /* stock-vector-happy-smiley-emoticon-face-123417493.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A102B33D1A2288150099FB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A102B34D1A2288150099FB71 /* ViewController.m in Sources */,
+				A102B34A1A2288150099FB71 /* AppDelegate.m in Sources */,
+				A102B3471A2288150099FB71 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A102B3561A2288150099FB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A102B3611A2288150099FB71 /* moodybabyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A102B36A1A228EA60099FB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A102B3D21A22A2C40099FB71 /* ReceiveViewController.m in Sources */,
+				A102B3CF1A22A23B0099FB71 /* SendViewController.m in Sources */,
+				A102B37B1A228EA60099FB71 /* NotificationController.m in Sources */,
+				A102B3781A228EA60099FB71 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A102B35C1A2288150099FB71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A102B3401A2288150099FB71 /* moodybaby */;
+			targetProxy = A102B35B1A2288150099FB71 /* PBXContainerItemProxy */;
+		};
+		A102B3831A228EA60099FB71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A102B37F1A228EA60099FB71 /* moodybaby Watch App */;
+			targetProxy = A102B3821A228EA60099FB71 /* PBXContainerItemProxy */;
+		};
+		A102B38C1A228EA60099FB71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A102B36D1A228EA60099FB71 /* moodybaby WatchKit Extension */;
+			targetProxy = A102B38B1A228EA60099FB71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A102B34E1A2288150099FB71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A102B34F1A2288150099FB71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A102B3531A2288150099FB71 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A102B3541A2288150099FB71 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A102B3621A2288150099FB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A102B3631A2288150099FB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A102B3651A2288150099FB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = moodybaby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A102B3661A2288150099FB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = moodybaby/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A102B3681A2288150099FB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = moodybabyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moodybaby.app/moodybaby";
+			};
+			name = Debug;
+		};
+		A102B3691A2288150099FB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = moodybabyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moodybaby.app/moodybaby";
+			};
+			name = Release;
+		};
+		A102B38F1A228EA60099FB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = moodybaby_WatchKit_Extension;
+				INFOPLIST_FILE = "moodybaby Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		A102B3901A228EA60099FB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = moodybaby_WatchKit_Extension;
+				INFOPLIST_FILE = "moodybaby Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		A102B3921A228EA60099FB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "moodybaby WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A102B3931A228EA60099FB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "moodybaby WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A102B33C1A2288150099FB71 /* Build configuration list for PBXProject "moodybaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A102B3621A2288150099FB71 /* Debug */,
+				A102B3631A2288150099FB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A102B3641A2288150099FB71 /* Build configuration list for PBXNativeTarget "moodybaby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A102B3651A2288150099FB71 /* Debug */,
+				A102B3661A2288150099FB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A102B3671A2288150099FB71 /* Build configuration list for PBXNativeTarget "moodybabyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A102B3681A2288150099FB71 /* Debug */,
+				A102B3691A2288150099FB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A102B38E1A228EA60099FB71 /* Build configuration list for PBXNativeTarget "moodybaby Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A102B38F1A228EA60099FB71 /* Debug */,
+				A102B3901A228EA60099FB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A102B3911A228EA60099FB71 /* Build configuration list for PBXNativeTarget "moodybaby WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A102B3921A228EA60099FB71 /* Debug */,
+				A102B3931A228EA60099FB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A102B3391A2288150099FB71 /* Project object */;
+}
